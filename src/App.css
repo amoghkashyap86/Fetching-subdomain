@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 95px;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+}
+.heading {
+  color: #fff;
+}
+.btn {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+/* .blink {
+  width: 200px;
+  height: 50px;
+  background-color: magenta;
+  padding: 15px;
+  text-align: center;
+  line-height: 50px;
+} */
+h1 {
+  font-size: 25px;
+  font-family: cursive;
+  color: #fff;
+  animation: blink 0.75s linear infinite;
+}
+.inputtext {
+  height: 25px;
+  color: green;
+  font-size: 20px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
